@@ -1,74 +1,33 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box
+}
+body{
+  background-color: pink;
+}
+main{
+  background-color:grey;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+head{
+  color: black;
+  align-items: center;
+  justify-content: flex-start;
+
 }
 
+.navbar{
+  display:flex;
+  justify-content: flex-end;
+}
 
-  header {
-    /* padding: 40px;
-    text-align: center;
-    background: pink;
-    color: #fff; */
-  }
-    .container {
-    display:flex;
-    justify-content:space-between;
-    align-items:center; 
-    padding: 10px;
-    text-align: center;
-    background: rgb(250, 139, 131);
-    color: #fff;
-    font-size: 30px;
-
-  body{
-    background-color:#fff;
-    color: black;
-    font-family:"Times New Roman", Helvetica, sans-serif;
-    margin:0;
-  }
-
-
-
-  #navbar li{
-    display:inline-block;
-    color: black;
-  }
-  #navbar a{
-    text-decoration:none;
-    font-size:18px;
-    padding-right:15px;
-
-  #navbar {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #d8a47f;
-    color: black;
-    font-size:20px;
-  }
-  
-  nav a {
-    color: black;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
-
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
-    }
-  }
+ul{
+  list-style-type: none;
+}
+ul, li{
+  display: inline-block;
+}
+section{
+display: flex;
+}
