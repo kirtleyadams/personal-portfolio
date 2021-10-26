@@ -10,24 +10,48 @@ main{
   font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
 }
+
 head{
   color: black;
   align-items: center;
   justify-content: flex-start;
-
 }
 
 .navbar{
   display:flex;
   justify-content: flex-end;
+  margin: 10px;
+  padding:10px;
+  background-color: green;
+  font-size: 20px;
+  align-items:center;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 25px;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.left-link {
+  flex: 1 1 200px;
+  color: white;
+  font-size: 25px;
+  justify-content: flex-start;
 }
 
 ul{
   list-style-type: none;
 }
-ul, li{
-  display: inline-block;
-}
+
+
 section{
 display: flex;
+}
+
+
+ul, li{
+  display: inline-block;
+  justify-content: space-between;
 }
