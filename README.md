@@ -1,7 +1,7 @@
 # Kirtley's Portfolio
 By: Kirtley Adams
 # Description
-Created HTML and CSS for a personal Portfolio. 
+Created HTML and CSS from scratch to create personal portfolio webpage. 
 # Link to final version:
 https://kirtleyadams.github.io/week-02/
 # Photos:
