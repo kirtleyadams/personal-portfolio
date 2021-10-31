@@ -100,13 +100,13 @@ nav a {
 .left-box {
   margin: 20px;
   border:5px;
-  width: 550px;
+  width: 50%;
   height: 475px;
   /* background-color: blue; */
 }
 
 .second {
-  width: 45%;
+  width: 50%;
   flex: 1;
   display: flex;
   flex-wrap: wrap;
@@ -135,3 +135,35 @@ nav a {
   text-decoration: none;
 }
 
+@media screen and (max-width: 1180px) {
+  main,
+  nav,
+  .about-me,
+  .left-side {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* 
+@media screen and (max-width: 1180px) {
+  .about-me,
+  .left-side {
+    flex-direction: column;
+  }
+} */
+@media screen and (max-width: 1140px) {
+  .first,
+  .second {
+    display: flex;
+    flex-direction: column;
+    width: 100% */
+    flex-basis: auto;
+  }
+
+  .first {
+    order: 1;
+  }
+  .second {
+    order: 2;
+  }
+}
