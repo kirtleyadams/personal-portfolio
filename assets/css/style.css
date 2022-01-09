@@ -53,7 +53,7 @@ nav a {
   font-family: Marcellus, serif;
 }
 
-.about-me {
+.About-me {
   display:flex;
   align-items: center;
   justify-content: center;
@@ -122,7 +122,7 @@ nav a {
   padding: 10px;
 }
 
-.contact {
+.Contact {
   background-color: black;
   color: white;
   font-size:20px;
